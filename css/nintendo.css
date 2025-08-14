@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  background-image: url(../assets/img/fondonintendo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+h1{
+    color: white;
+}
+
+.juegos{
+    text-transform: uppercase;
+}
+
+li>a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
