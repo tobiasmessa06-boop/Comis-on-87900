@@ -4,14 +4,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 h1 {
-  color: #f624e7;
+  color: #b141ac;
   text-align: center;
   text-transform: uppercase;
 }
 
-body {
+h3{
+  color: #800000;
+  text-transform: uppercase;
   text-align: center;
-  background-color: #258ef0;
+}
+
+body {
+  background-color: #021e38;
+  font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+        }
+
+    .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+        .navbar a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Media query para tabletas */
+        @media (min-width: 600px) {
+            body {
+                font-size: 18px;
+                padding: 20px;
+            }
+
+            .navbar {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+        /* Media query para computadoras de escritorio */
+        @media (min-width: 1024px) {
+            body {
+                font-size: 20px;
+                padding: 30px;
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+
+main{
+  text-align: center;
 }
 
 .ps4 {
@@ -55,3 +120,33 @@ p {
   font-size: 50px;
 }
 
+ul{   
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    align-items: center;
+    list-style: none;
+ }
+ 
+.resolucion{
+  width: 99%;
+  text-align: center;
+}
+
+@media (max-width: 767px){
+  body{
+    font-size: 14px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 991px){
+  body{
+    font-size: 18px;
+  }
+}
+
+footer{
+  align-items: center;
+  text-align: center;
+}
