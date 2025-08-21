@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  background-image: url(../assets/img/fondops5.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+    color: white;
+}
+
+.games{
+    text-transform: uppercase;
+}
+
+li>a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul{   
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    align-items: center;
+    list-style: none;
+ }
+ 
+
+ .d-block w-100{
+  align-items: center;
+  height: min-content;
+ }
+
+ h5{
+  text-transform: uppercase;
+ }

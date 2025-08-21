@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-image: url(../assets/img/fondops4.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: white;
+}
+
+.mayus {
+  text-transform: uppercase;
+}
+
+li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.juegos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 900px;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  justify-items: center;
+}
+
+.portada {
+  text-align: center;
+}
+
+.portada img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+ul{   
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    align-items: center;
+    list-style: none;
+ }
+ 
+ p{
+  color: white;
+ }
+
+ main{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ }
+
